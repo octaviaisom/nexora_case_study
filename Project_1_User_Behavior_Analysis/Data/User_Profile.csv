@@ -1,5 +1,1001 @@
-user_id,user_type,team_size,account_creation_date,industry
-101,enterprise,15,2021-03-15,tech
-102,SMB,5,2020-06-11,retail
-103,enterprise,25,2022-01-05,healthcare
-104,SMB,8,2021-08-22,finance
+user_id,industry,team_size,user_type,region,account_age_months,avg_session_duration
+user_1,Technology,500+,Team Member,North America,17,1125.68
+user_2,Technology,51-200,Team Member,North America,20,1177.83
+user_3,Education,201-500,Manager,Europe,28,500.94
+user_4,Retail,1-10,Team Member,South America,23,820.51
+user_5,Education,500+,Manager,Australia,33,443.76
+user_6,Retail,11-50,Manager,South America,2,1451.86
+user_7,Finance,201-500,Admin,North America,6,1207.41
+user_8,Technology,500+,Manager,Asia,24,1210.04
+user_9,Healthcare,51-200,Manager,North America,31,1631.99
+user_10,Education,500+,Manager,South America,25,1229.09
+user_11,Finance,500+,Admin,Asia,30,350.55
+user_12,Education,500+,Manager,North America,26,1114.99
+user_13,Retail,500+,Manager,Asia,22,580.3
+user_14,Retail,1-10,Manager,Australia,28,1380.79
+user_15,Healthcare,11-50,Admin,South America,15,801.87
+user_16,Education,1-10,Team Member,Australia,17,1050.45
+user_17,Healthcare,500+,Admin,South America,2,935.4
+user_18,Healthcare,51-200,Team Member,Asia,34,1640.78
+user_19,Technology,1-10,Manager,Europe,34,780.12
+user_20,Technology,1-10,Team Member,Europe,14,1701.35
+user_21,Technology,201-500,Team Member,South America,1,1750.78
+user_22,Retail,500+,Team Member,South America,4,832.42
+user_23,Retail,500+,Manager,North America,16,1523.84
+user_24,Retail,500+,Admin,South America,4,1094.46
+user_25,Technology,500+,Team Member,Australia,26,1231.12
+user_26,Retail,500+,Admin,Australia,4,588.44
+user_27,Healthcare,500+,Manager,Asia,4,1757.18
+user_28,Healthcare,201-500,Team Member,Asia,7,1254.19
+user_29,Finance,51-200,Admin,North America,36,1539.83
+user_30,Technology,500+,Admin,South America,8,833.29
+user_31,Finance,201-500,Admin,Asia,20,1269.4
+user_32,Finance,201-500,Manager,Asia,28,1739.0
+user_33,Retail,1-10,Admin,South America,36,614.3
+user_34,Retail,51-200,Admin,Asia,20,903.74
+user_35,Retail,201-500,Admin,Asia,31,1011.94
+user_36,Technology,51-200,Team Member,Asia,22,611.81
+user_37,Finance,51-200,Admin,Europe,12,788.56
+user_38,Education,51-200,Admin,South America,20,1679.29
+user_39,Retail,1-10,Admin,Australia,27,784.87
+user_40,Healthcare,201-500,Team Member,Europe,1,1653.44
+user_41,Finance,11-50,Admin,North America,13,1014.95
+user_42,Education,51-200,Admin,Europe,23,1092.48
+user_43,Healthcare,500+,Admin,Australia,8,1376.14
+user_44,Retail,500+,Manager,North America,19,816.3
+user_45,Healthcare,500+,Manager,Europe,16,686.39
+user_46,Retail,11-50,Admin,North America,5,1398.31
+user_47,Finance,1-10,Team Member,North America,26,775.54
+user_48,Retail,201-500,Team Member,North America,25,699.99
+user_49,Technology,1-10,Manager,North America,30,908.39
+user_50,Technology,500+,Admin,South America,33,1225.89
+user_51,Technology,1-10,Admin,North America,27,700.73
+user_52,Retail,51-200,Manager,Australia,18,1555.56
+user_53,Technology,51-200,Admin,Asia,17,1708.01
+user_54,Finance,11-50,Team Member,Australia,27,1033.61
+user_55,Education,201-500,Manager,Europe,3,741.29
+user_56,Finance,51-200,Manager,South America,17,487.87
+user_57,Finance,1-10,Team Member,Asia,17,519.12
+user_58,Education,201-500,Admin,North America,6,1336.77
+user_59,Finance,201-500,Admin,Australia,12,565.37
+user_60,Healthcare,51-200,Admin,Europe,21,1318.73
+user_61,Healthcare,201-500,Team Member,Asia,17,1719.11
+user_62,Technology,1-10,Manager,North America,27,1323.19
+user_63,Education,500+,Manager,Australia,23,614.4
+user_64,Healthcare,201-500,Team Member,Australia,11,767.69
+user_65,Technology,11-50,Team Member,Asia,17,411.88
+user_66,Finance,11-50,Admin,North America,30,830.7
+user_67,Education,11-50,Manager,North America,18,655.35
+user_68,Retail,1-10,Admin,Asia,13,1047.81
+user_69,Technology,1-10,Team Member,Europe,14,1064.06
+user_70,Finance,11-50,Admin,North America,3,905.46
+user_71,Healthcare,11-50,Team Member,South America,11,417.97
+user_72,Healthcare,1-10,Admin,Australia,36,637.07
+user_73,Healthcare,11-50,Admin,Europe,18,1135.66
+user_74,Retail,11-50,Manager,Asia,33,493.59
+user_75,Healthcare,201-500,Team Member,Europe,23,1659.26
+user_76,Education,11-50,Admin,Europe,8,1290.99
+user_77,Healthcare,500+,Team Member,Asia,32,588.58
+user_78,Finance,1-10,Manager,Asia,19,1433.45
+user_79,Education,1-10,Team Member,Australia,30,1362.6
+user_80,Retail,500+,Admin,North America,8,822.71
+user_81,Retail,11-50,Admin,Europe,12,500.31
+user_82,Education,1-10,Team Member,South America,4,636.82
+user_83,Retail,201-500,Manager,Asia,2,937.21
+user_84,Healthcare,11-50,Admin,South America,20,619.38
+user_85,Retail,11-50,Team Member,Australia,29,507.79
+user_86,Technology,51-200,Admin,Australia,23,1176.98
+user_87,Healthcare,201-500,Admin,North America,13,824.07
+user_88,Education,51-200,Team Member,Asia,35,1528.84
+user_89,Education,1-10,Team Member,South America,11,1590.95
+user_90,Technology,201-500,Admin,Australia,34,1071.67
+user_91,Finance,51-200,Team Member,Asia,16,528.62
+user_92,Finance,500+,Manager,Australia,15,863.47
+user_93,Healthcare,1-10,Manager,North America,34,461.84
+user_94,Retail,500+,Team Member,South America,8,1587.9
+user_95,Retail,11-50,Team Member,Asia,16,1217.99
+user_96,Finance,11-50,Manager,Australia,26,1703.53
+user_97,Retail,51-200,Admin,Australia,23,351.71
+user_98,Technology,500+,Team Member,Australia,20,1025.34
+user_99,Finance,500+,Team Member,Australia,1,1631.54
+user_100,Finance,11-50,Manager,South America,19,676.85
+user_101,Healthcare,500+,Admin,South America,9,435.49
+user_102,Education,201-500,Admin,Europe,9,1284.55
+user_103,Technology,11-50,Team Member,South America,15,608.1
+user_104,Retail,1-10,Team Member,North America,29,830.43
+user_105,Healthcare,1-10,Admin,North America,24,815.77
+user_106,Technology,201-500,Manager,North America,9,1460.24
+user_107,Healthcare,11-50,Team Member,Europe,15,1337.22
+user_108,Education,1-10,Manager,Australia,17,310.79
+user_109,Education,1-10,Manager,Asia,30,1789.04
+user_110,Retail,201-500,Manager,North America,13,1017.21
+user_111,Retail,1-10,Team Member,South America,11,809.39
+user_112,Retail,11-50,Team Member,Australia,19,1026.4
+user_113,Healthcare,500+,Team Member,North America,6,1112.21
+user_114,Technology,201-500,Team Member,Australia,15,1484.76
+user_115,Education,51-200,Manager,South America,19,1133.52
+user_116,Education,1-10,Team Member,Asia,6,343.17
+user_117,Education,11-50,Manager,Australia,20,1253.04
+user_118,Healthcare,11-50,Admin,Australia,4,1415.1
+user_119,Healthcare,500+,Manager,North America,12,1168.88
+user_120,Healthcare,201-500,Team Member,Australia,27,405.77
+user_121,Technology,500+,Team Member,Europe,16,1618.17
+user_122,Healthcare,201-500,Admin,Australia,9,1172.75
+user_123,Education,201-500,Team Member,Europe,3,1314.63
+user_124,Healthcare,1-10,Manager,Australia,4,593.89
+user_125,Technology,11-50,Manager,Europe,10,316.53
+user_126,Retail,500+,Admin,North America,9,1781.56
+user_127,Education,201-500,Admin,Europe,6,1347.8
+user_128,Technology,11-50,Admin,Australia,22,628.81
+user_129,Retail,51-200,Admin,Europe,4,913.91
+user_130,Retail,500+,Team Member,Asia,18,1761.59
+user_131,Education,1-10,Admin,Australia,13,1456.9
+user_132,Healthcare,500+,Admin,Asia,7,1078.9
+user_133,Finance,1-10,Team Member,Australia,32,1666.89
+user_134,Education,1-10,Admin,Australia,5,1554.57
+user_135,Finance,201-500,Admin,Australia,23,1339.3
+user_136,Healthcare,201-500,Team Member,South America,22,1180.54
+user_137,Healthcare,51-200,Admin,Europe,31,1073.27
+user_138,Technology,11-50,Manager,North America,26,347.77
+user_139,Finance,51-200,Manager,Asia,22,1101.63
+user_140,Education,51-200,Admin,Australia,21,1405.12
+user_141,Finance,1-10,Admin,Europe,1,336.67
+user_142,Technology,500+,Admin,South America,34,391.64
+user_143,Retail,201-500,Admin,Europe,30,626.52
+user_144,Technology,201-500,Admin,South America,26,1782.83
+user_145,Retail,51-200,Admin,South America,13,1292.8
+user_146,Finance,201-500,Admin,North America,30,388.08
+user_147,Education,500+,Admin,Asia,28,415.59
+user_148,Retail,500+,Admin,South America,25,965.08
+user_149,Technology,51-200,Team Member,Australia,2,1169.13
+user_150,Education,1-10,Manager,Europe,29,1283.31
+user_151,Education,500+,Admin,Australia,1,1494.2
+user_152,Retail,11-50,Manager,Europe,14,448.72
+user_153,Technology,201-500,Team Member,Australia,16,560.61
+user_154,Technology,1-10,Team Member,North America,32,1149.27
+user_155,Education,500+,Manager,Australia,22,736.95
+user_156,Finance,1-10,Team Member,North America,36,676.91
+user_157,Retail,500+,Admin,Europe,22,1552.23
+user_158,Technology,1-10,Team Member,Australia,36,795.57
+user_159,Retail,51-200,Team Member,Asia,2,1337.31
+user_160,Retail,500+,Admin,South America,32,1662.85
+user_161,Healthcare,1-10,Manager,Europe,16,465.53
+user_162,Finance,1-10,Manager,Australia,15,786.34
+user_163,Healthcare,500+,Team Member,Australia,31,1629.76
+user_164,Finance,51-200,Admin,Asia,8,1749.73
+user_165,Finance,201-500,Admin,South America,33,1136.95
+user_166,Finance,51-200,Manager,South America,22,965.48
+user_167,Finance,11-50,Team Member,Australia,10,659.87
+user_168,Retail,51-200,Team Member,Asia,19,1544.62
+user_169,Education,11-50,Manager,Australia,26,813.13
+user_170,Retail,1-10,Team Member,North America,31,654.78
+user_171,Finance,51-200,Team Member,Europe,36,483.26
+user_172,Education,201-500,Manager,South America,7,655.04
+user_173,Healthcare,1-10,Admin,Australia,21,1586.19
+user_174,Finance,11-50,Team Member,Europe,30,1434.71
+user_175,Healthcare,500+,Admin,Australia,1,1387.67
+user_176,Healthcare,201-500,Manager,South America,8,1750.11
+user_177,Retail,201-500,Admin,Europe,19,1170.84
+user_178,Retail,11-50,Admin,South America,7,830.78
+user_179,Finance,51-200,Team Member,Asia,13,1182.22
+user_180,Technology,201-500,Admin,South America,34,1162.06
+user_181,Technology,201-500,Manager,South America,23,1553.17
+user_182,Finance,201-500,Manager,Australia,19,1462.15
+user_183,Retail,1-10,Admin,Europe,31,1351.93
+user_184,Technology,1-10,Manager,Europe,24,1141.68
+user_185,Finance,51-200,Manager,Europe,5,599.3
+user_186,Finance,51-200,Admin,North America,26,1246.3
+user_187,Healthcare,201-500,Manager,Europe,21,1088.13
+user_188,Finance,51-200,Team Member,North America,17,581.42
+user_189,Retail,500+,Manager,North America,10,1226.61
+user_190,Education,11-50,Manager,South America,28,1506.26
+user_191,Education,500+,Admin,Europe,12,478.86
+user_192,Healthcare,11-50,Team Member,Australia,8,1411.05
+user_193,Education,51-200,Admin,Europe,13,724.58
+user_194,Healthcare,500+,Admin,Australia,26,813.02
+user_195,Education,11-50,Team Member,South America,35,1704.18
+user_196,Finance,1-10,Admin,Europe,2,981.85
+user_197,Retail,201-500,Team Member,Asia,15,371.13
+user_198,Healthcare,500+,Admin,Australia,26,1520.08
+user_199,Technology,1-10,Manager,South America,31,1601.82
+user_200,Finance,201-500,Admin,Asia,26,873.64
+user_201,Finance,1-10,Admin,South America,21,1324.07
+user_202,Finance,1-10,Manager,South America,6,607.59
+user_203,Finance,11-50,Manager,North America,25,1167.37
+user_204,Technology,1-10,Admin,South America,29,834.97
+user_205,Healthcare,11-50,Manager,Asia,14,962.0
+user_206,Finance,500+,Admin,Europe,5,1046.25
+user_207,Healthcare,1-10,Manager,North America,25,463.15
+user_208,Finance,51-200,Team Member,Asia,32,1172.48
+user_209,Education,500+,Admin,Europe,33,1510.0
+user_210,Technology,201-500,Team Member,South America,26,1582.23
+user_211,Technology,201-500,Team Member,North America,19,1364.14
+user_212,Retail,11-50,Admin,Australia,27,1147.74
+user_213,Education,1-10,Admin,Europe,2,467.3
+user_214,Finance,500+,Team Member,Europe,8,1405.05
+user_215,Education,201-500,Team Member,North America,6,768.37
+user_216,Finance,500+,Manager,South America,14,1226.15
+user_217,Finance,201-500,Admin,Europe,23,357.13
+user_218,Retail,11-50,Team Member,Europe,4,1382.92
+user_219,Healthcare,500+,Admin,Europe,5,685.24
+user_220,Finance,201-500,Manager,Australia,21,1021.35
+user_221,Retail,51-200,Admin,South America,36,996.54
+user_222,Finance,500+,Manager,Australia,18,896.46
+user_223,Technology,11-50,Admin,Asia,8,1518.07
+user_224,Retail,201-500,Manager,Asia,27,1452.9
+user_225,Education,51-200,Team Member,North America,31,349.12
+user_226,Technology,500+,Team Member,North America,35,1261.32
+user_227,Education,51-200,Team Member,Australia,4,927.02
+user_228,Retail,1-10,Manager,South America,25,1737.08
+user_229,Education,11-50,Team Member,South America,6,414.4
+user_230,Healthcare,1-10,Team Member,South America,7,1710.03
+user_231,Technology,500+,Admin,Asia,12,477.39
+user_232,Technology,1-10,Manager,North America,16,484.85
+user_233,Education,11-50,Manager,North America,3,564.92
+user_234,Education,201-500,Team Member,South America,12,1202.35
+user_235,Retail,1-10,Admin,Asia,15,1788.56
+user_236,Education,1-10,Admin,Asia,27,418.01
+user_237,Education,51-200,Manager,North America,13,1239.65
+user_238,Retail,11-50,Team Member,Australia,1,777.42
+user_239,Technology,11-50,Admin,South America,10,1014.03
+user_240,Finance,11-50,Manager,Asia,10,820.09
+user_241,Healthcare,11-50,Admin,Australia,34,316.17
+user_242,Retail,201-500,Team Member,North America,17,1782.58
+user_243,Technology,201-500,Team Member,Europe,4,1529.45
+user_244,Healthcare,51-200,Team Member,Australia,24,1262.27
+user_245,Retail,500+,Team Member,South America,32,1561.3
+user_246,Healthcare,201-500,Admin,Australia,17,845.16
+user_247,Retail,1-10,Admin,Asia,3,842.43
+user_248,Healthcare,201-500,Manager,Australia,20,432.86
+user_249,Finance,201-500,Manager,Australia,27,768.4
+user_250,Healthcare,201-500,Admin,Europe,5,1403.43
+user_251,Education,201-500,Admin,South America,21,1131.74
+user_252,Finance,1-10,Manager,Asia,31,310.26
+user_253,Retail,1-10,Manager,Australia,6,997.9
+user_254,Technology,51-200,Manager,Australia,7,1149.18
+user_255,Technology,51-200,Team Member,North America,22,414.43
+user_256,Finance,11-50,Admin,Europe,25,1644.12
+user_257,Finance,1-10,Manager,South America,3,946.79
+user_258,Finance,51-200,Admin,Australia,29,1269.58
+user_259,Education,500+,Admin,North America,15,726.21
+user_260,Finance,11-50,Admin,Europe,13,1010.8
+user_261,Finance,11-50,Team Member,Europe,2,624.55
+user_262,Healthcare,201-500,Admin,South America,25,1427.25
+user_263,Healthcare,11-50,Manager,North America,4,1440.74
+user_264,Retail,500+,Manager,Australia,11,1221.93
+user_265,Technology,500+,Admin,Australia,31,979.72
+user_266,Retail,11-50,Team Member,Australia,6,559.66
+user_267,Education,500+,Team Member,Australia,10,1044.79
+user_268,Finance,201-500,Team Member,Asia,23,771.98
+user_269,Healthcare,201-500,Manager,Asia,32,1341.26
+user_270,Finance,51-200,Team Member,Australia,9,441.26
+user_271,Healthcare,1-10,Team Member,Europe,34,1615.58
+user_272,Retail,201-500,Admin,Europe,6,1242.42
+user_273,Education,51-200,Manager,Europe,24,1678.97
+user_274,Healthcare,500+,Admin,Australia,16,1510.17
+user_275,Education,500+,Manager,South America,29,1108.86
+user_276,Education,1-10,Admin,North America,11,877.65
+user_277,Finance,500+,Admin,South America,33,1721.67
+user_278,Healthcare,500+,Admin,Asia,1,1186.14
+user_279,Finance,1-10,Team Member,South America,26,430.54
+user_280,Education,1-10,Admin,Asia,17,968.72
+user_281,Retail,51-200,Manager,North America,29,1667.97
+user_282,Education,11-50,Team Member,Asia,13,484.03
+user_283,Finance,51-200,Manager,Asia,17,1104.68
+user_284,Education,51-200,Admin,Australia,16,1055.67
+user_285,Retail,11-50,Team Member,South America,4,1635.37
+user_286,Retail,500+,Manager,South America,12,491.55
+user_287,Technology,201-500,Manager,Asia,23,1421.38
+user_288,Healthcare,11-50,Team Member,Asia,36,1473.57
+user_289,Education,1-10,Admin,North America,24,508.65
+user_290,Healthcare,1-10,Manager,North America,23,965.43
+user_291,Retail,11-50,Manager,Australia,14,1280.74
+user_292,Education,51-200,Admin,South America,16,1795.69
+user_293,Education,11-50,Manager,South America,15,879.59
+user_294,Retail,1-10,Team Member,North America,2,319.81
+user_295,Healthcare,1-10,Admin,Asia,12,1582.54
+user_296,Healthcare,11-50,Team Member,South America,24,1140.16
+user_297,Healthcare,11-50,Admin,North America,11,861.97
+user_298,Education,500+,Manager,Europe,1,1119.17
+user_299,Retail,201-500,Team Member,Australia,32,1752.53
+user_300,Technology,11-50,Team Member,South America,29,356.36
+user_301,Finance,201-500,Manager,North America,25,1252.39
+user_302,Technology,51-200,Manager,Australia,31,997.69
+user_303,Healthcare,11-50,Team Member,South America,16,1785.68
+user_304,Retail,1-10,Manager,Europe,33,1359.75
+user_305,Finance,500+,Team Member,Europe,26,507.84
+user_306,Technology,11-50,Manager,North America,17,465.74
+user_307,Finance,500+,Manager,Europe,7,1702.41
+user_308,Healthcare,1-10,Admin,Asia,25,329.92
+user_309,Education,51-200,Manager,North America,17,1398.1
+user_310,Retail,1-10,Team Member,North America,22,1429.4
+user_311,Healthcare,51-200,Team Member,South America,1,1161.8
+user_312,Retail,201-500,Manager,Asia,4,975.0
+user_313,Healthcare,1-10,Team Member,Asia,32,801.93
+user_314,Education,51-200,Team Member,South America,1,812.95
+user_315,Retail,201-500,Manager,North America,23,446.31
+user_316,Retail,201-500,Admin,Australia,20,1349.32
+user_317,Education,51-200,Admin,Australia,7,1190.59
+user_318,Healthcare,201-500,Team Member,Europe,35,978.8
+user_319,Education,51-200,Admin,North America,4,915.68
+user_320,Retail,201-500,Admin,South America,21,490.21
+user_321,Healthcare,51-200,Admin,South America,19,1450.69
+user_322,Retail,201-500,Manager,North America,13,1399.52
+user_323,Healthcare,51-200,Team Member,Asia,19,947.94
+user_324,Healthcare,51-200,Manager,Europe,22,1788.22
+user_325,Finance,11-50,Admin,Australia,24,1424.76
+user_326,Finance,201-500,Manager,Europe,10,737.55
+user_327,Technology,500+,Team Member,Asia,25,1634.87
+user_328,Finance,500+,Manager,South America,15,1723.47
+user_329,Finance,201-500,Admin,South America,3,457.29
+user_330,Retail,500+,Manager,Australia,21,742.21
+user_331,Education,51-200,Manager,South America,28,587.71
+user_332,Healthcare,1-10,Admin,Europe,18,1049.56
+user_333,Healthcare,500+,Manager,Australia,22,1639.6
+user_334,Technology,500+,Team Member,Asia,33,579.38
+user_335,Finance,500+,Admin,North America,14,1125.41
+user_336,Finance,500+,Team Member,North America,21,1401.04
+user_337,Healthcare,500+,Admin,North America,28,788.37
+user_338,Healthcare,500+,Manager,Europe,32,897.76
+user_339,Retail,11-50,Team Member,Australia,5,1503.81
+user_340,Healthcare,500+,Manager,Australia,34,1438.86
+user_341,Finance,500+,Manager,Asia,17,1277.12
+user_342,Technology,51-200,Manager,North America,8,1499.6
+user_343,Healthcare,11-50,Team Member,Europe,31,1072.68
+user_344,Education,500+,Admin,South America,6,1732.43
+user_345,Finance,1-10,Team Member,Australia,30,1107.75
+user_346,Technology,11-50,Admin,Asia,16,459.98
+user_347,Education,11-50,Team Member,Asia,20,372.25
+user_348,Finance,1-10,Manager,Europe,28,367.56
+user_349,Technology,1-10,Admin,Australia,3,375.55
+user_350,Retail,500+,Team Member,North America,20,1757.24
+user_351,Education,201-500,Admin,Asia,4,1560.11
+user_352,Healthcare,500+,Admin,Europe,6,565.54
+user_353,Technology,11-50,Team Member,Europe,21,1779.02
+user_354,Finance,500+,Manager,South America,27,1324.31
+user_355,Retail,1-10,Manager,Australia,20,355.72
+user_356,Finance,201-500,Admin,Europe,32,1074.29
+user_357,Retail,1-10,Manager,South America,14,1705.15
+user_358,Retail,51-200,Team Member,North America,35,1259.68
+user_359,Retail,500+,Admin,South America,12,1513.82
+user_360,Education,51-200,Admin,Asia,3,1187.74
+user_361,Education,11-50,Admin,Asia,6,418.24
+user_362,Technology,11-50,Manager,Europe,5,1647.9
+user_363,Healthcare,11-50,Team Member,Asia,28,1488.85
+user_364,Education,500+,Team Member,Europe,7,384.62
+user_365,Education,201-500,Team Member,North America,11,1560.41
+user_366,Retail,500+,Team Member,Asia,17,511.89
+user_367,Education,11-50,Admin,Australia,12,349.1
+user_368,Retail,500+,Team Member,North America,36,739.14
+user_369,Technology,1-10,Admin,Australia,26,498.51
+user_370,Retail,1-10,Team Member,Europe,13,1317.54
+user_371,Retail,1-10,Team Member,North America,11,1436.38
+user_372,Finance,500+,Manager,North America,16,341.44
+user_373,Technology,1-10,Manager,Europe,23,1603.61
+user_374,Finance,51-200,Manager,South America,26,809.77
+user_375,Finance,201-500,Admin,Australia,4,1722.29
+user_376,Retail,51-200,Manager,Australia,36,986.69
+user_377,Education,500+,Team Member,North America,22,406.37
+user_378,Finance,1-10,Admin,Asia,35,848.62
+user_379,Technology,500+,Team Member,Europe,25,1724.44
+user_380,Technology,500+,Team Member,Australia,35,901.3
+user_381,Retail,201-500,Team Member,Asia,24,979.26
+user_382,Technology,11-50,Team Member,North America,10,1783.01
+user_383,Finance,500+,Manager,Australia,3,820.56
+user_384,Technology,500+,Admin,South America,32,1115.93
+user_385,Healthcare,11-50,Team Member,South America,35,1590.15
+user_386,Finance,1-10,Team Member,North America,26,1600.14
+user_387,Education,11-50,Manager,Europe,2,1635.03
+user_388,Finance,51-200,Admin,Asia,36,768.04
+user_389,Finance,1-10,Admin,Australia,24,1565.26
+user_390,Finance,201-500,Team Member,North America,22,855.27
+user_391,Finance,51-200,Admin,North America,6,664.24
+user_392,Healthcare,51-200,Manager,South America,25,1334.21
+user_393,Retail,1-10,Admin,Europe,28,765.88
+user_394,Finance,51-200,Team Member,Asia,5,1657.27
+user_395,Retail,1-10,Team Member,Australia,18,1710.37
+user_396,Technology,51-200,Team Member,Europe,4,1138.08
+user_397,Retail,500+,Team Member,Australia,23,417.82
+user_398,Retail,51-200,Admin,North America,33,1380.38
+user_399,Finance,11-50,Manager,Europe,35,1046.39
+user_400,Technology,1-10,Admin,Europe,36,445.78
+user_401,Healthcare,51-200,Manager,North America,34,1406.46
+user_402,Education,1-10,Team Member,Europe,27,381.79
+user_403,Retail,51-200,Team Member,North America,2,795.63
+user_404,Technology,500+,Team Member,Asia,34,432.73
+user_405,Finance,201-500,Admin,North America,5,1726.58
+user_406,Technology,11-50,Admin,Australia,10,840.63
+user_407,Technology,201-500,Team Member,Australia,2,1475.49
+user_408,Retail,500+,Manager,Australia,30,1203.63
+user_409,Education,11-50,Team Member,Australia,28,651.1
+user_410,Technology,1-10,Admin,Europe,8,1615.95
+user_411,Technology,1-10,Manager,South America,25,535.35
+user_412,Healthcare,1-10,Team Member,Europe,9,939.2
+user_413,Education,11-50,Manager,Europe,29,1384.97
+user_414,Technology,201-500,Team Member,Europe,15,527.57
+user_415,Technology,500+,Team Member,Australia,36,1301.98
+user_416,Technology,500+,Team Member,Europe,28,1765.75
+user_417,Retail,1-10,Team Member,North America,29,962.41
+user_418,Education,201-500,Admin,Asia,19,798.95
+user_419,Healthcare,500+,Admin,South America,12,1054.7
+user_420,Healthcare,500+,Manager,South America,20,1257.31
+user_421,Technology,51-200,Admin,Asia,31,1055.68
+user_422,Retail,11-50,Manager,Europe,32,1720.35
+user_423,Education,500+,Team Member,Europe,23,1249.4
+user_424,Technology,500+,Manager,South America,2,464.38
+user_425,Healthcare,500+,Manager,South America,29,1788.44
+user_426,Healthcare,201-500,Team Member,Australia,6,802.75
+user_427,Finance,51-200,Team Member,Australia,36,1675.25
+user_428,Education,201-500,Manager,Australia,1,949.18
+user_429,Finance,1-10,Admin,Europe,11,1079.64
+user_430,Healthcare,201-500,Admin,Asia,14,1122.8
+user_431,Education,201-500,Manager,Australia,29,412.08
+user_432,Retail,51-200,Admin,South America,21,1744.58
+user_433,Finance,201-500,Admin,Australia,20,1623.72
+user_434,Education,51-200,Team Member,Asia,17,1120.0
+user_435,Education,1-10,Admin,Asia,25,493.29
+user_436,Retail,500+,Admin,North America,25,1490.99
+user_437,Retail,51-200,Manager,North America,13,1109.18
+user_438,Healthcare,201-500,Manager,North America,32,405.23
+user_439,Healthcare,500+,Team Member,North America,8,1741.72
+user_440,Education,51-200,Manager,Asia,25,1365.08
+user_441,Finance,201-500,Team Member,North America,17,1688.63
+user_442,Retail,500+,Admin,Asia,4,1158.99
+user_443,Education,51-200,Team Member,Australia,32,590.03
+user_444,Technology,11-50,Manager,Europe,1,847.0
+user_445,Retail,11-50,Admin,Australia,31,1144.2
+user_446,Healthcare,500+,Team Member,Europe,12,1451.5
+user_447,Retail,201-500,Team Member,Europe,15,494.73
+user_448,Healthcare,201-500,Admin,South America,12,587.86
+user_449,Education,500+,Manager,Asia,9,1658.63
+user_450,Education,1-10,Admin,Asia,32,1685.55
+user_451,Finance,1-10,Manager,North America,27,1172.51
+user_452,Healthcare,1-10,Manager,Australia,2,692.88
+user_453,Finance,500+,Team Member,Asia,9,870.94
+user_454,Healthcare,11-50,Team Member,North America,26,1660.71
+user_455,Finance,51-200,Team Member,Asia,4,894.19
+user_456,Finance,1-10,Manager,North America,19,501.83
+user_457,Finance,500+,Team Member,Asia,24,604.04
+user_458,Retail,500+,Admin,Australia,22,1371.73
+user_459,Retail,500+,Admin,North America,16,718.02
+user_460,Retail,11-50,Manager,Europe,23,415.11
+user_461,Retail,500+,Manager,North America,8,1347.53
+user_462,Technology,201-500,Manager,Asia,24,822.55
+user_463,Retail,201-500,Team Member,South America,26,1484.12
+user_464,Retail,51-200,Team Member,Europe,28,1198.73
+user_465,Technology,201-500,Manager,South America,15,1204.14
+user_466,Finance,11-50,Team Member,Europe,19,325.62
+user_467,Retail,201-500,Manager,North America,10,1786.5
+user_468,Retail,1-10,Admin,North America,20,1261.06
+user_469,Healthcare,201-500,Admin,Europe,35,569.09
+user_470,Finance,500+,Team Member,South America,13,898.73
+user_471,Education,1-10,Admin,Europe,22,408.71
+user_472,Retail,1-10,Team Member,Asia,28,1635.63
+user_473,Technology,51-200,Team Member,North America,20,1267.84
+user_474,Healthcare,1-10,Team Member,Europe,16,580.82
+user_475,Technology,201-500,Admin,Australia,3,409.0
+user_476,Technology,1-10,Manager,Europe,32,661.7
+user_477,Technology,1-10,Manager,Asia,26,451.04
+user_478,Technology,201-500,Manager,Australia,12,1267.26
+user_479,Finance,1-10,Team Member,South America,32,1160.0
+user_480,Healthcare,51-200,Admin,Asia,18,847.48
+user_481,Healthcare,11-50,Manager,North America,26,1467.33
+user_482,Healthcare,1-10,Manager,Europe,10,557.5
+user_483,Finance,11-50,Team Member,South America,18,1679.4
+user_484,Education,201-500,Admin,Asia,15,1595.4
+user_485,Technology,201-500,Team Member,Asia,12,1673.33
+user_486,Retail,500+,Team Member,Australia,19,1392.85
+user_487,Healthcare,51-200,Manager,Europe,30,503.52
+user_488,Healthcare,51-200,Manager,Europe,34,1007.43
+user_489,Technology,1-10,Admin,North America,27,1417.29
+user_490,Education,1-10,Manager,South America,29,394.22
+user_491,Technology,51-200,Team Member,Australia,22,1751.47
+user_492,Technology,500+,Manager,Asia,11,1186.32
+user_493,Technology,201-500,Admin,North America,6,1376.51
+user_494,Finance,500+,Admin,Europe,15,652.84
+user_495,Retail,51-200,Admin,South America,24,1339.0
+user_496,Healthcare,201-500,Manager,Asia,6,1453.08
+user_497,Healthcare,201-500,Team Member,South America,3,1147.67
+user_498,Finance,500+,Manager,Europe,28,1049.98
+user_499,Finance,500+,Manager,Australia,22,301.53
+user_500,Education,500+,Admin,Europe,6,1781.41
+user_501,Finance,500+,Team Member,North America,4,1544.41
+user_502,Technology,11-50,Manager,Asia,19,1701.93
+user_503,Finance,500+,Admin,Australia,9,1210.65
+user_504,Retail,11-50,Admin,North America,3,859.56
+user_505,Technology,1-10,Team Member,Australia,18,1060.68
+user_506,Healthcare,51-200,Manager,South America,11,541.92
+user_507,Healthcare,500+,Team Member,Asia,35,1134.59
+user_508,Technology,500+,Team Member,Australia,13,447.45
+user_509,Finance,51-200,Manager,Europe,27,1367.48
+user_510,Education,51-200,Team Member,Asia,18,1646.47
+user_511,Finance,500+,Manager,Europe,19,1717.16
+user_512,Finance,500+,Admin,Asia,24,608.88
+user_513,Education,51-200,Admin,Asia,19,741.5
+user_514,Healthcare,201-500,Manager,Australia,35,667.09
+user_515,Education,51-200,Team Member,North America,10,667.23
+user_516,Technology,500+,Admin,Asia,27,336.49
+user_517,Education,201-500,Manager,South America,22,1528.01
+user_518,Retail,1-10,Manager,Asia,20,567.91
+user_519,Retail,500+,Admin,Europe,4,755.88
+user_520,Retail,11-50,Team Member,Europe,16,1713.58
+user_521,Healthcare,51-200,Manager,Asia,35,1377.54
+user_522,Technology,11-50,Team Member,Asia,9,1622.02
+user_523,Education,1-10,Manager,North America,33,360.62
+user_524,Education,51-200,Manager,North America,1,1422.42
+user_525,Technology,11-50,Admin,Europe,26,394.04
+user_526,Healthcare,500+,Manager,Australia,30,628.14
+user_527,Healthcare,51-200,Team Member,South America,27,1739.01
+user_528,Finance,201-500,Admin,Asia,23,550.99
+user_529,Technology,1-10,Admin,Europe,6,1571.89
+user_530,Finance,51-200,Admin,North America,30,941.6
+user_531,Education,500+,Team Member,Australia,7,457.52
+user_532,Education,51-200,Team Member,Australia,21,636.88
+user_533,Retail,201-500,Team Member,North America,25,1409.36
+user_534,Healthcare,201-500,Admin,Australia,12,1430.44
+user_535,Retail,11-50,Team Member,Asia,16,1708.26
+user_536,Technology,1-10,Admin,Asia,36,1501.15
+user_537,Finance,51-200,Manager,Europe,7,1490.27
+user_538,Healthcare,500+,Team Member,North America,19,1378.69
+user_539,Retail,500+,Manager,North America,12,773.39
+user_540,Retail,201-500,Admin,North America,33,1018.62
+user_541,Education,1-10,Admin,Europe,26,713.7
+user_542,Healthcare,1-10,Manager,South America,16,490.47
+user_543,Healthcare,51-200,Manager,Asia,30,805.08
+user_544,Healthcare,500+,Admin,South America,29,371.38
+user_545,Healthcare,51-200,Admin,Europe,21,402.16
+user_546,Retail,51-200,Team Member,South America,2,1399.53
+user_547,Finance,51-200,Admin,North America,21,1725.98
+user_548,Technology,201-500,Team Member,South America,1,1363.3
+user_549,Technology,201-500,Team Member,Australia,18,1440.13
+user_550,Healthcare,1-10,Admin,Asia,7,1091.1
+user_551,Education,201-500,Admin,South America,14,1339.11
+user_552,Education,11-50,Admin,North America,28,514.95
+user_553,Technology,500+,Admin,Australia,3,1754.9
+user_554,Education,500+,Team Member,Asia,10,1395.14
+user_555,Healthcare,51-200,Team Member,Europe,10,1173.3
+user_556,Finance,11-50,Admin,South America,27,1046.66
+user_557,Technology,201-500,Team Member,South America,22,764.98
+user_558,Finance,201-500,Team Member,North America,28,312.63
+user_559,Education,11-50,Manager,Australia,16,553.77
+user_560,Technology,51-200,Admin,Australia,18,958.52
+user_561,Finance,201-500,Manager,South America,28,575.21
+user_562,Retail,51-200,Team Member,North America,9,1170.52
+user_563,Finance,51-200,Admin,Europe,14,327.69
+user_564,Technology,201-500,Manager,North America,28,1262.13
+user_565,Retail,201-500,Admin,Asia,1,667.99
+user_566,Healthcare,500+,Manager,South America,8,646.63
+user_567,Education,1-10,Team Member,Europe,1,1265.74
+user_568,Healthcare,51-200,Manager,Australia,2,1435.51
+user_569,Retail,500+,Team Member,Asia,9,1163.69
+user_570,Retail,11-50,Team Member,North America,8,1119.53
+user_571,Finance,11-50,Manager,South America,20,575.91
+user_572,Healthcare,1-10,Admin,Europe,8,862.88
+user_573,Healthcare,500+,Admin,Europe,21,1039.29
+user_574,Education,11-50,Admin,Europe,29,658.38
+user_575,Finance,51-200,Team Member,South America,24,1609.19
+user_576,Retail,201-500,Admin,South America,15,1718.02
+user_577,Education,500+,Team Member,Australia,24,1146.63
+user_578,Retail,500+,Team Member,Europe,14,1623.39
+user_579,Education,11-50,Team Member,North America,30,1038.09
+user_580,Healthcare,51-200,Manager,Asia,19,795.22
+user_581,Healthcare,11-50,Team Member,Australia,31,1725.34
+user_582,Finance,11-50,Admin,Europe,19,677.5
+user_583,Finance,51-200,Team Member,North America,32,876.85
+user_584,Education,51-200,Team Member,Asia,27,892.52
+user_585,Technology,1-10,Manager,North America,14,1565.24
+user_586,Finance,1-10,Manager,North America,10,1268.23
+user_587,Healthcare,1-10,Admin,Asia,20,684.86
+user_588,Retail,500+,Team Member,South America,9,1194.19
+user_589,Healthcare,201-500,Admin,Australia,3,598.17
+user_590,Technology,500+,Manager,North America,29,1557.89
+user_591,Retail,51-200,Team Member,North America,3,1776.2
+user_592,Technology,201-500,Admin,Australia,7,832.83
+user_593,Technology,1-10,Admin,North America,34,905.66
+user_594,Healthcare,11-50,Team Member,South America,24,921.92
+user_595,Healthcare,11-50,Team Member,North America,35,918.67
+user_596,Education,51-200,Team Member,Asia,18,610.19
+user_597,Healthcare,1-10,Admin,North America,1,1541.28
+user_598,Healthcare,11-50,Team Member,North America,33,561.82
+user_599,Healthcare,1-10,Team Member,Europe,19,814.53
+user_600,Technology,500+,Admin,Australia,24,656.22
+user_601,Healthcare,11-50,Admin,Europe,9,1568.98
+user_602,Finance,1-10,Team Member,North America,3,900.64
+user_603,Education,51-200,Team Member,Asia,7,1128.65
+user_604,Technology,500+,Admin,North America,18,768.78
+user_605,Finance,11-50,Manager,Australia,8,1200.44
+user_606,Education,1-10,Manager,Europe,6,387.38
+user_607,Technology,11-50,Team Member,Australia,2,1244.41
+user_608,Education,500+,Team Member,Australia,6,1485.06
+user_609,Retail,1-10,Team Member,Australia,2,1756.6
+user_610,Retail,51-200,Manager,Europe,28,1330.69
+user_611,Education,11-50,Manager,South America,26,1336.17
+user_612,Retail,1-10,Admin,Australia,34,660.36
+user_613,Retail,500+,Manager,South America,28,911.59
+user_614,Technology,500+,Admin,North America,9,1206.36
+user_615,Healthcare,500+,Admin,Asia,22,1174.74
+user_616,Technology,51-200,Team Member,Australia,30,1019.87
+user_617,Technology,500+,Team Member,Australia,13,1722.15
+user_618,Retail,51-200,Team Member,Asia,32,1672.9
+user_619,Technology,1-10,Team Member,North America,32,858.55
+user_620,Finance,500+,Manager,North America,7,1080.38
+user_621,Finance,1-10,Admin,South America,28,574.64
+user_622,Education,51-200,Team Member,Asia,22,1248.05
+user_623,Retail,1-10,Admin,Asia,28,1338.09
+user_624,Retail,11-50,Team Member,Asia,3,1228.95
+user_625,Finance,201-500,Team Member,North America,8,1092.87
+user_626,Technology,201-500,Admin,North America,16,522.79
+user_627,Healthcare,11-50,Admin,South America,5,1405.28
+user_628,Healthcare,500+,Team Member,North America,6,1060.38
+user_629,Finance,1-10,Admin,Asia,29,1021.35
+user_630,Education,1-10,Manager,Europe,14,1533.04
+user_631,Education,11-50,Manager,South America,31,1561.13
+user_632,Retail,1-10,Admin,Asia,25,992.67
+user_633,Education,51-200,Manager,Australia,16,1358.17
+user_634,Finance,500+,Manager,Australia,27,1216.6
+user_635,Retail,51-200,Team Member,Australia,9,931.06
+user_636,Finance,201-500,Manager,Asia,35,575.29
+user_637,Retail,500+,Admin,Australia,31,1558.08
+user_638,Retail,500+,Team Member,Australia,1,1418.02
+user_639,Technology,1-10,Team Member,North America,29,450.15
+user_640,Healthcare,500+,Admin,North America,31,938.02
+user_641,Education,51-200,Admin,Europe,31,393.4
+user_642,Retail,51-200,Admin,North America,22,1733.06
+user_643,Technology,11-50,Manager,Europe,29,317.28
+user_644,Education,500+,Admin,Europe,1,1189.98
+user_645,Healthcare,11-50,Manager,Asia,3,1531.89
+user_646,Education,1-10,Admin,South America,33,900.72
+user_647,Healthcare,51-200,Team Member,Europe,25,603.05
+user_648,Technology,1-10,Manager,South America,2,407.6
+user_649,Retail,1-10,Team Member,North America,11,1753.0
+user_650,Technology,11-50,Admin,Europe,28,1731.6
+user_651,Retail,1-10,Admin,Australia,23,1541.27
+user_652,Healthcare,11-50,Team Member,Asia,6,882.13
+user_653,Retail,1-10,Team Member,Australia,36,802.64
+user_654,Education,1-10,Manager,Europe,20,482.84
+user_655,Finance,51-200,Team Member,Australia,2,1287.59
+user_656,Healthcare,1-10,Team Member,Asia,34,1115.1
+user_657,Healthcare,201-500,Admin,South America,26,1652.6
+user_658,Finance,500+,Manager,Asia,6,931.66
+user_659,Retail,51-200,Admin,Europe,16,764.03
+user_660,Healthcare,51-200,Admin,North America,20,1488.36
+user_661,Technology,500+,Manager,Australia,4,466.59
+user_662,Education,500+,Team Member,Europe,24,905.92
+user_663,Retail,11-50,Manager,North America,1,1059.84
+user_664,Education,11-50,Manager,South America,9,486.72
+user_665,Technology,1-10,Manager,Australia,29,1369.44
+user_666,Education,1-10,Manager,South America,13,800.12
+user_667,Education,201-500,Team Member,Asia,21,463.16
+user_668,Retail,1-10,Team Member,Asia,36,640.35
+user_669,Retail,201-500,Admin,South America,33,530.21
+user_670,Healthcare,51-200,Manager,North America,3,1290.24
+user_671,Healthcare,1-10,Team Member,Europe,13,1690.0
+user_672,Healthcare,51-200,Admin,South America,29,644.4
+user_673,Finance,201-500,Admin,South America,11,1315.26
+user_674,Healthcare,1-10,Manager,Australia,7,1253.64
+user_675,Healthcare,11-50,Admin,Australia,16,1690.61
+user_676,Healthcare,11-50,Team Member,Europe,24,348.04
+user_677,Technology,201-500,Team Member,North America,3,945.91
+user_678,Retail,11-50,Manager,South America,5,664.9
+user_679,Technology,11-50,Admin,Europe,8,603.72
+user_680,Finance,51-200,Manager,South America,32,1169.97
+user_681,Technology,201-500,Admin,Australia,24,812.64
+user_682,Retail,500+,Team Member,North America,31,322.69
+user_683,Healthcare,500+,Manager,Europe,17,1466.96
+user_684,Technology,51-200,Team Member,Asia,27,1393.59
+user_685,Finance,201-500,Team Member,Australia,6,1297.07
+user_686,Education,500+,Manager,North America,19,1291.89
+user_687,Finance,1-10,Manager,South America,1,798.97
+user_688,Healthcare,500+,Admin,South America,24,772.99
+user_689,Healthcare,201-500,Team Member,Asia,31,1186.33
+user_690,Education,1-10,Manager,North America,36,911.44
+user_691,Healthcare,1-10,Manager,North America,2,1778.13
+user_692,Education,1-10,Team Member,North America,10,617.92
+user_693,Finance,201-500,Manager,Europe,14,1322.3
+user_694,Technology,500+,Manager,Australia,5,968.72
+user_695,Education,51-200,Manager,North America,2,436.57
+user_696,Retail,51-200,Admin,Australia,24,1410.45
+user_697,Retail,500+,Team Member,Australia,33,1537.92
+user_698,Healthcare,11-50,Team Member,North America,9,1789.37
+user_699,Healthcare,11-50,Admin,Asia,29,1118.21
+user_700,Technology,201-500,Admin,South America,5,1114.41
+user_701,Education,11-50,Manager,North America,31,1680.94
+user_702,Finance,201-500,Admin,South America,27,1403.18
+user_703,Education,11-50,Admin,South America,4,501.45
+user_704,Finance,11-50,Manager,Europe,11,1757.06
+user_705,Healthcare,500+,Manager,Europe,10,381.02
+user_706,Finance,11-50,Manager,South America,13,645.4
+user_707,Retail,11-50,Team Member,Australia,36,1327.08
+user_708,Retail,201-500,Team Member,Australia,26,647.83
+user_709,Retail,51-200,Manager,North America,4,1430.64
+user_710,Technology,51-200,Admin,Asia,20,964.67
+user_711,Healthcare,500+,Admin,Europe,25,701.2
+user_712,Retail,1-10,Admin,Asia,14,1463.57
+user_713,Healthcare,1-10,Manager,Europe,8,1539.54
+user_714,Education,500+,Manager,North America,24,1023.05
+user_715,Technology,51-200,Admin,North America,20,674.03
+user_716,Education,51-200,Manager,Asia,24,509.69
+user_717,Technology,11-50,Manager,Europe,15,957.63
+user_718,Healthcare,11-50,Manager,North America,1,798.7
+user_719,Retail,201-500,Team Member,Europe,30,867.8
+user_720,Finance,500+,Team Member,Europe,14,1637.27
+user_721,Healthcare,1-10,Manager,Europe,26,1035.62
+user_722,Education,11-50,Team Member,Asia,17,1633.02
+user_723,Healthcare,51-200,Team Member,Europe,10,1718.28
+user_724,Finance,11-50,Admin,South America,28,757.77
+user_725,Healthcare,1-10,Admin,Asia,12,491.81
+user_726,Retail,51-200,Manager,North America,8,1034.47
+user_727,Technology,500+,Team Member,Australia,9,725.14
+user_728,Technology,201-500,Admin,Asia,31,463.76
+user_729,Finance,1-10,Manager,Asia,34,586.17
+user_730,Finance,1-10,Team Member,North America,19,1469.02
+user_731,Education,1-10,Manager,Asia,3,552.79
+user_732,Healthcare,11-50,Admin,Europe,27,329.19
+user_733,Retail,51-200,Admin,North America,5,1408.7
+user_734,Education,201-500,Team Member,South America,4,306.46
+user_735,Finance,51-200,Admin,Europe,15,1319.29
+user_736,Technology,201-500,Admin,Australia,34,1310.56
+user_737,Education,500+,Manager,North America,7,1271.99
+user_738,Technology,500+,Manager,Australia,34,1132.57
+user_739,Retail,500+,Admin,Australia,11,1416.51
+user_740,Finance,51-200,Team Member,Asia,24,300.93
+user_741,Healthcare,500+,Manager,Asia,23,1482.58
+user_742,Retail,500+,Admin,North America,30,1307.1
+user_743,Retail,500+,Team Member,North America,18,1748.62
+user_744,Finance,1-10,Admin,Europe,5,1053.85
+user_745,Finance,201-500,Admin,South America,13,918.48
+user_746,Finance,51-200,Admin,South America,1,711.32
+user_747,Retail,51-200,Admin,North America,7,373.66
+user_748,Retail,11-50,Admin,South America,27,507.18
+user_749,Retail,1-10,Admin,South America,32,751.46
+user_750,Education,51-200,Team Member,Europe,11,1017.21
+user_751,Education,11-50,Team Member,North America,8,1292.04
+user_752,Education,51-200,Manager,South America,35,1256.5
+user_753,Finance,51-200,Manager,South America,33,1160.26
+user_754,Education,11-50,Manager,South America,6,709.31
+user_755,Healthcare,1-10,Admin,North America,19,381.94
+user_756,Retail,1-10,Team Member,Europe,28,400.23
+user_757,Healthcare,51-200,Manager,Australia,9,1074.72
+user_758,Finance,201-500,Manager,South America,3,426.57
+user_759,Finance,51-200,Admin,Australia,22,1218.75
+user_760,Finance,1-10,Manager,Europe,14,1209.32
+user_761,Education,1-10,Team Member,South America,16,881.59
+user_762,Finance,201-500,Admin,Australia,28,1740.24
+user_763,Finance,51-200,Manager,Europe,1,1579.4
+user_764,Healthcare,1-10,Team Member,Australia,21,1466.83
+user_765,Education,11-50,Admin,South America,26,924.04
+user_766,Finance,1-10,Team Member,Australia,5,1710.21
+user_767,Healthcare,11-50,Manager,Asia,23,621.98
+user_768,Education,1-10,Team Member,North America,17,419.7
+user_769,Healthcare,11-50,Team Member,Australia,2,1798.54
+user_770,Retail,201-500,Team Member,Europe,9,1261.41
+user_771,Technology,51-200,Team Member,Asia,22,595.94
+user_772,Retail,11-50,Manager,Australia,23,1133.12
+user_773,Finance,51-200,Team Member,Europe,4,933.14
+user_774,Technology,500+,Manager,Europe,21,1416.42
+user_775,Technology,51-200,Admin,South America,19,868.91
+user_776,Technology,201-500,Team Member,Europe,13,490.68
+user_777,Healthcare,51-200,Manager,Europe,2,917.79
+user_778,Healthcare,500+,Team Member,North America,11,1654.24
+user_779,Education,51-200,Admin,Australia,34,1191.16
+user_780,Finance,1-10,Manager,Australia,36,863.51
+user_781,Technology,201-500,Team Member,Australia,17,1718.02
+user_782,Education,11-50,Team Member,Australia,36,1440.06
+user_783,Finance,201-500,Admin,Europe,34,1131.02
+user_784,Education,11-50,Manager,Asia,14,983.62
+user_785,Technology,201-500,Team Member,North America,31,469.45
+user_786,Technology,11-50,Manager,Asia,14,1322.9
+user_787,Healthcare,1-10,Team Member,South America,6,386.41
+user_788,Healthcare,51-200,Manager,Asia,2,601.47
+user_789,Finance,1-10,Manager,Australia,4,304.86
+user_790,Education,500+,Team Member,South America,31,581.01
+user_791,Education,51-200,Team Member,Europe,25,1322.8
+user_792,Finance,11-50,Team Member,North America,8,302.14
+user_793,Healthcare,201-500,Manager,Europe,27,409.01
+user_794,Education,11-50,Team Member,Asia,5,1430.06
+user_795,Technology,201-500,Team Member,North America,31,411.09
+user_796,Technology,11-50,Team Member,Europe,36,1602.43
+user_797,Retail,500+,Manager,Asia,31,1616.1
+user_798,Finance,51-200,Team Member,Australia,11,1190.72
+user_799,Education,11-50,Manager,South America,5,1092.86
+user_800,Education,51-200,Manager,Asia,12,1472.44
+user_801,Education,11-50,Team Member,Asia,28,611.15
+user_802,Finance,201-500,Admin,South America,29,489.12
+user_803,Education,201-500,Admin,South America,20,1127.47
+user_804,Retail,500+,Team Member,Europe,7,709.61
+user_805,Technology,500+,Team Member,Australia,11,509.18
+user_806,Technology,500+,Manager,Europe,8,303.67
+user_807,Finance,1-10,Manager,North America,24,1275.62
+user_808,Finance,500+,Manager,North America,26,1247.89
+user_809,Education,500+,Admin,South America,25,1560.19
+user_810,Finance,500+,Admin,North America,27,990.13
+user_811,Technology,1-10,Team Member,Asia,1,884.89
+user_812,Technology,201-500,Manager,South America,34,914.16
+user_813,Technology,11-50,Admin,North America,33,1598.22
+user_814,Retail,51-200,Admin,Europe,31,758.63
+user_815,Retail,51-200,Team Member,Asia,35,722.66
+user_816,Finance,11-50,Team Member,South America,23,844.6
+user_817,Retail,500+,Admin,South America,6,651.84
+user_818,Retail,201-500,Team Member,Europe,31,331.4
+user_819,Technology,201-500,Manager,Europe,23,1373.56
+user_820,Education,500+,Team Member,North America,27,1748.09
+user_821,Education,1-10,Team Member,South America,12,641.74
+user_822,Technology,201-500,Manager,North America,5,1209.8
+user_823,Healthcare,500+,Team Member,Asia,14,648.02
+user_824,Finance,201-500,Admin,South America,19,1415.51
+user_825,Retail,51-200,Admin,Asia,35,1712.74
+user_826,Education,11-50,Manager,South America,19,1469.62
+user_827,Technology,51-200,Admin,Asia,8,1063.0
+user_828,Healthcare,1-10,Manager,Australia,9,1759.05
+user_829,Healthcare,11-50,Team Member,South America,24,1052.55
+user_830,Technology,51-200,Team Member,Europe,27,1741.02
+user_831,Education,51-200,Team Member,North America,19,1174.01
+user_832,Education,500+,Admin,Asia,15,909.83
+user_833,Education,11-50,Manager,North America,13,821.19
+user_834,Finance,11-50,Admin,Europe,23,1168.96
+user_835,Healthcare,201-500,Admin,Australia,32,1182.85
+user_836,Technology,201-500,Team Member,North America,6,1201.86
+user_837,Retail,1-10,Manager,Asia,9,1570.3
+user_838,Education,1-10,Admin,Asia,7,1640.35
+user_839,Healthcare,500+,Admin,Asia,7,1559.6
+user_840,Education,1-10,Manager,Europe,34,1467.48
+user_841,Retail,1-10,Manager,Europe,4,640.45
+user_842,Finance,500+,Manager,Europe,15,1441.98
+user_843,Healthcare,51-200,Team Member,Asia,25,1483.79
+user_844,Education,500+,Manager,Europe,35,954.34
+user_845,Technology,1-10,Manager,Asia,33,449.13
+user_846,Finance,201-500,Admin,Australia,2,904.99
+user_847,Finance,500+,Team Member,Europe,6,1204.02
+user_848,Healthcare,500+,Manager,North America,28,883.87
+user_849,Technology,500+,Manager,Asia,10,1419.3
+user_850,Healthcare,201-500,Admin,Asia,5,732.26
+user_851,Finance,500+,Manager,Asia,10,1481.14
+user_852,Finance,11-50,Team Member,South America,28,745.41
+user_853,Finance,500+,Manager,Australia,4,930.69
+user_854,Education,500+,Team Member,South America,7,1132.15
+user_855,Education,201-500,Team Member,Asia,9,1707.91
+user_856,Retail,11-50,Team Member,Australia,9,1062.88
+user_857,Education,500+,Manager,Australia,36,550.3
+user_858,Retail,500+,Admin,Asia,35,565.99
+user_859,Finance,500+,Manager,North America,27,1081.59
+user_860,Healthcare,201-500,Admin,Asia,23,437.71
+user_861,Education,1-10,Admin,Asia,6,1119.87
+user_862,Education,500+,Admin,South America,20,1787.08
+user_863,Finance,201-500,Admin,Asia,31,493.05
+user_864,Retail,51-200,Team Member,Australia,15,1763.54
+user_865,Healthcare,201-500,Admin,North America,34,1504.93
+user_866,Retail,201-500,Team Member,North America,34,1115.41
+user_867,Technology,201-500,Team Member,Europe,33,1706.33
+user_868,Technology,1-10,Team Member,Australia,3,1634.68
+user_869,Education,1-10,Manager,South America,17,433.51
+user_870,Retail,500+,Admin,Europe,23,900.38
+user_871,Retail,201-500,Manager,South America,33,1563.22
+user_872,Finance,1-10,Manager,South America,23,780.32
+user_873,Technology,1-10,Admin,South America,32,1041.93
+user_874,Technology,1-10,Team Member,South America,21,1513.14
+user_875,Healthcare,11-50,Admin,South America,35,1381.41
+user_876,Education,11-50,Admin,South America,30,802.24
+user_877,Retail,500+,Team Member,North America,34,1031.3
+user_878,Healthcare,500+,Manager,Australia,27,435.67
+user_879,Education,201-500,Manager,Australia,36,691.12
+user_880,Retail,1-10,Team Member,Europe,3,1552.12
+user_881,Technology,500+,Team Member,North America,1,1115.09
+user_882,Retail,11-50,Team Member,Asia,31,1205.16
+user_883,Technology,11-50,Team Member,Australia,33,307.96
+user_884,Finance,11-50,Admin,Europe,24,1615.86
+user_885,Education,51-200,Manager,North America,16,1336.81
+user_886,Technology,500+,Admin,South America,32,1459.03
+user_887,Healthcare,11-50,Manager,North America,13,380.57
+user_888,Healthcare,1-10,Manager,South America,11,1695.93
+user_889,Retail,500+,Admin,South America,21,622.64
+user_890,Retail,51-200,Team Member,Asia,3,1774.72
+user_891,Retail,51-200,Admin,North America,17,622.01
+user_892,Healthcare,51-200,Admin,Europe,15,1124.0
+user_893,Healthcare,500+,Team Member,South America,35,341.72
+user_894,Education,1-10,Manager,Asia,26,495.37
+user_895,Education,500+,Admin,North America,19,940.32
+user_896,Finance,1-10,Admin,South America,36,1597.56
+user_897,Technology,51-200,Admin,Asia,16,1449.43
+user_898,Retail,51-200,Manager,North America,19,412.19
+user_899,Technology,201-500,Team Member,Australia,25,1408.5
+user_900,Retail,11-50,Manager,Europe,2,1442.99
+user_901,Healthcare,11-50,Team Member,North America,11,1059.0
+user_902,Education,500+,Manager,Europe,26,1040.43
+user_903,Technology,51-200,Manager,Europe,24,595.31
+user_904,Education,201-500,Admin,North America,10,533.39
+user_905,Education,500+,Admin,Europe,21,579.5
+user_906,Healthcare,201-500,Admin,Asia,20,588.88
+user_907,Technology,51-200,Team Member,North America,15,1453.52
+user_908,Education,500+,Team Member,Australia,24,1608.2
+user_909,Technology,11-50,Team Member,South America,23,475.2
+user_910,Retail,51-200,Manager,North America,28,455.27
+user_911,Finance,500+,Admin,South America,31,424.79
+user_912,Healthcare,201-500,Admin,Asia,11,1295.66
+user_913,Technology,11-50,Manager,South America,30,1065.78
+user_914,Healthcare,51-200,Team Member,South America,12,1335.18
+user_915,Healthcare,500+,Admin,North America,19,344.64
+user_916,Healthcare,1-10,Team Member,South America,30,1368.24
+user_917,Education,1-10,Admin,Asia,13,458.41
+user_918,Healthcare,201-500,Team Member,South America,31,1053.2
+user_919,Finance,201-500,Admin,North America,31,1637.91
+user_920,Education,500+,Manager,Europe,13,437.69
+user_921,Healthcare,201-500,Manager,Asia,11,1125.54
+user_922,Healthcare,51-200,Manager,South America,2,1052.49
+user_923,Healthcare,51-200,Team Member,North America,21,633.74
+user_924,Healthcare,500+,Manager,North America,30,1159.37
+user_925,Education,201-500,Admin,South America,19,1285.14
+user_926,Finance,500+,Manager,Asia,33,587.17
+user_927,Healthcare,500+,Admin,Australia,22,359.12
+user_928,Technology,51-200,Team Member,North America,30,1722.92
+user_929,Education,1-10,Admin,Asia,36,1284.23
+user_930,Technology,201-500,Manager,Europe,30,380.93
+user_931,Technology,11-50,Admin,Australia,28,1071.66
+user_932,Healthcare,1-10,Team Member,South America,36,1383.05
+user_933,Education,1-10,Admin,Asia,9,1643.88
+user_934,Finance,1-10,Team Member,Australia,35,316.36
+user_935,Healthcare,201-500,Manager,Asia,9,1235.52
+user_936,Finance,500+,Team Member,Australia,6,1133.02
+user_937,Technology,500+,Admin,South America,21,907.94
+user_938,Finance,1-10,Team Member,North America,18,1059.55
+user_939,Education,11-50,Admin,South America,4,1227.13
+user_940,Healthcare,500+,Team Member,Asia,14,320.67
+user_941,Finance,1-10,Admin,Europe,23,379.1
+user_942,Healthcare,11-50,Admin,Asia,6,603.7
+user_943,Healthcare,51-200,Admin,Australia,26,1637.22
+user_944,Education,201-500,Manager,Australia,32,1767.86
+user_945,Finance,201-500,Team Member,Europe,26,541.02
+user_946,Finance,11-50,Team Member,North America,27,1239.33
+user_947,Technology,11-50,Admin,South America,24,1427.98
+user_948,Retail,11-50,Manager,Australia,31,1085.54
+user_949,Technology,11-50,Admin,South America,35,1189.66
+user_950,Healthcare,1-10,Team Member,South America,2,307.73
+user_951,Retail,1-10,Manager,Asia,1,1410.59
+user_952,Healthcare,201-500,Manager,Asia,31,398.79
+user_953,Retail,201-500,Team Member,Europe,11,1715.12
+user_954,Education,500+,Admin,Australia,15,1109.99
+user_955,Finance,51-200,Manager,Australia,31,1716.97
+user_956,Healthcare,500+,Manager,Australia,23,1093.07
+user_957,Healthcare,11-50,Manager,South America,12,502.28
+user_958,Retail,1-10,Team Member,Australia,28,1570.79
+user_959,Retail,51-200,Team Member,North America,15,1445.79
+user_960,Finance,51-200,Team Member,North America,27,680.94
+user_961,Technology,51-200,Admin,Asia,24,1651.05
+user_962,Finance,51-200,Manager,Europe,23,1489.57
+user_963,Technology,201-500,Admin,Europe,11,1147.54
+user_964,Technology,201-500,Admin,South America,10,765.81
+user_965,Education,11-50,Team Member,Europe,11,1001.29
+user_966,Healthcare,51-200,Team Member,Australia,12,976.89
+user_967,Finance,1-10,Team Member,Europe,2,965.45
+user_968,Retail,500+,Team Member,Australia,7,1111.03
+user_969,Healthcare,51-200,Manager,Australia,34,1242.52
+user_970,Healthcare,201-500,Manager,Europe,2,1164.7
+user_971,Retail,201-500,Admin,Australia,9,306.55
+user_972,Education,11-50,Team Member,Europe,26,1300.41
+user_973,Healthcare,11-50,Admin,Australia,1,996.52
+user_974,Technology,201-500,Team Member,Asia,27,354.52
+user_975,Technology,1-10,Team Member,North America,9,370.9
+user_976,Retail,201-500,Admin,Asia,25,1187.99
+user_977,Education,1-10,Manager,Europe,9,536.42
+user_978,Education,201-500,Admin,South America,36,486.59
+user_979,Retail,1-10,Manager,Europe,1,745.07
+user_980,Education,51-200,Team Member,North America,12,1770.1
+user_981,Technology,51-200,Manager,Asia,11,530.35
+user_982,Technology,11-50,Admin,South America,30,316.94
+user_983,Retail,500+,Manager,North America,31,1036.61
+user_984,Education,51-200,Manager,Australia,4,722.51
+user_985,Healthcare,51-200,Team Member,Asia,35,868.5
+user_986,Retail,201-500,Manager,Asia,11,515.75
+user_987,Healthcare,201-500,Manager,North America,32,1258.8
+user_988,Healthcare,201-500,Team Member,Europe,4,1708.1
+user_989,Education,11-50,Team Member,South America,32,1074.68
+user_990,Healthcare,51-200,Manager,Europe,15,886.9
+user_991,Education,500+,Team Member,Australia,19,757.06
+user_992,Education,11-50,Team Member,Europe,31,342.18
+user_993,Education,11-50,Manager,South America,21,1464.17
+user_994,Healthcare,11-50,Team Member,North America,11,1614.75
+user_995,Finance,11-50,Team Member,North America,30,1401.74
+user_996,Healthcare,1-10,Manager,Australia,35,1402.41
+user_997,Education,11-50,Manager,Europe,13,1607.29
+user_998,Retail,201-500,Team Member,South America,12,1644.95
+user_999,Finance,51-200,Team Member,Europe,1,1171.57
+user_1000,Finance,201-500,Team Member,Europe,18,692.66
