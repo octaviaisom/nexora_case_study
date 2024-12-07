@@ -1,0 +1,5 @@
+feature_id,feature_name,user_id,session_id,usage_count
+1,task_management,101,1001,10
+2,reports,101,1001,5
+3,task_management,102,1002,5
+4,collaboration,103,1003,7

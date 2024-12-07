@@ -1,0 +1,7 @@
+session_id,user_id,cluster_id,start_time,end_time,session_duration,features_used,action_count
+1001,101,1,2023-01-10 09:00:00,2023-01-10 09:30:00,1800,"task_management, reports",25
+1002,102,2,2023-01-10 10:00:00,2023-01-10 10:15:00,900,task_management,12
+1003,103,1,2023-01-11 11:00:00,2023-01-11 11:45:00,2700,"collaboration, reports",38
+1004,104,3,2023-01-03 14:00:00,2023-01-03 14:20:00,1200,task_management,8
+1005,101,1,2023-01-12 12:00:00,2023-01-12 12:30:00,1800,reports,20
+1006,103,1,2023-01-12 13:00:00,2023-01-12 13:20:00,2400,smart_recommendations,45

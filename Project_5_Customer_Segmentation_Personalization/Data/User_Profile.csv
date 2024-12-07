@@ -1,0 +1,5 @@
+user_id,user_type,team_size,account_creation_date,industry
+101,enterprise,15,2021-03-15,tech
+102,SMB,5,2020-06-11,retail
+103,enterprise,25,2022-01-05,healthcare
+104,SMB,8,2021-08-22,finance
