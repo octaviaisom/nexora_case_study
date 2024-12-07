@@ -83,7 +83,6 @@ This repository covers five analytical projects, each addressing a specific busi
 Each project folder contains:
 - **Data**: Mock datasets used for the analysis.
 - **Notebooks**: Python notebooks showcasing the analysis process.
-- **Visualizations**: Charts and dashboards generated for insights.
 - **README**: Project-specific details, methodology, and results.
 
 ---
